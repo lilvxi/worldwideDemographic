@@ -1,0 +1,50 @@
+---
+title: Countrys with the longest life expectancy over times
+author: ''
+date: '2021-11-13'
+slug: countrys-with-the-longest-life-expectancy-over-times
+categories:
+  - R
+tags:
+  - worldwide
+  - block
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Countrys with the longest life expectancy over times.
+
+Countrys with the longest life expectancy over times in the peroid of 1960~2013.
+
+
+```{r message=F,warning=F,echo=F,fig.width=9,fig.height=3.2}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+
+load('../info.RData')
+
+plot3.data<-info[,.SD[order(-lifeExpect)][1],by=.(Year)]
+plot3.data.bg<-CJ(plot3.data[,unique(Year)],plot3.data[,unique(`Country Name`)])
+names(plot3.data.bg)<-c('Year','Country Name')
+plot3.data<-plot3.data[plot3.data.bg,on=.(Year,`Country Name`)]
+
+plot3<-ggplot(plot3.data,aes(x=Year,y=`Country Name`,fill=lifeExpect))+
+     geom_tile(width=0.9,height=0.9,colour='black')+
+     theme_minimal()+
+     scale_fill_continuous(low="thistle2", high="darkred", 
+                            guide="colorbar",na.value="white")+
+     labs(y='',title='Which countries have the longest life expectancy along years?')+
+	 scale_x_continuous(expand=expansion(0))+
+	 scale_y_discrete(expand=expansion(0))
+
+
+plot3
+
+```

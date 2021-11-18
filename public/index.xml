@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>worldwideDemographic</title>
+    <link>/</link>
+    <description>Recent content on worldwideDemographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/2021/11/18/introduction/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/18/introduction/</guid>
+      <description>p {text-indent:2em; padding:0px; margin:0px;}
+At the beginning, an overall scatter plot is adopted to generate the whole situation. Thus, income level appears to be a vital factor to dig deeper. In this way, five representatives within each income level have been chosen to generate the population situation. Despite the income level, life expectancy values a lot in this case.Afterward, someone may consider whether there exist other external factors for this case.</description>
+    </item>
+    
+    <item>
+      <title>Decline in fertility rates in 2013 compared with 1960</title>
+      <link>/2021/11/16/decline-in-fertility-rates-in-2013-compared-with-1960/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/16/decline-in-fertility-rates-in-2013-compared-with-1960/</guid>
+      <description>Decline in fertility rates in 2013 compared with 1960.There is a declining trend in fertility rates in countries around the world in 1960 and 2013. There exist huge difference various from country to country.
+{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[22,148,72,9,113,110,151,155,130,179,123,135,114,109,138,160,147,75,24,105,57,193,78,142,125,171,12,5,98,70,27,161,38,4,174,139,156,99,28,7,17,146,23,168,178,173,176,152,52,84,81,73,108,25,30,165,33,80,144,121,115,40,10,140,187,46,192,111,89,48,21,19,82,60,66,197,188,119,85,95,131,44,122,64,183,102,184,56,77,37,68,126,196,79,58,65,180,172,63,26,93,162,164,198,182,35,13,127,103,2,185,31,181,107,55,175,87,157,74,16,129,61,97,153,100,128,83,1,6,137,71,59,86,49,69,88,62,191,194,158,120,166,154,34,39,41,76,18,29,195,189,163,43,3,92,20,190,94,133,124,36,101,54,134,167,67,47,14,186,15,32,50,145,104,118,96,8,170,143,132,136,117,106,53,91,150,149,42,11,51],&#34;y&#34;:[7.671,6.186,7.648,7.316,4.425,3.109,4.55,4.82,3.453,2.69,5.571,4.495,7.09,6.725,4.333,2.67,2.54,6.5,6.282,6.67,6.696,4.052,6.615,6.21,6.487,2.31,6.291,6.953,6.885,6.967,5.647,3.811,5.84,6.25,2.421,5.582,5.758,6.807,6.792,6.001,5.88,7.311,7.351,2.332,4.182,3.5,2.09,2.57,6.461,7.555,6.689,6.63,6.728,5.505,6.899,1.98,6.88,6.461,2.72,2.85,5.658,4.384,5.573,2.964,2.37,6.749,2.23,6.743,6.052,6.534,6.102,5.828,5.671,6.324,7.458,5.162,2.02,4.29,5.87,5.666,6.927,6.252,3.78,3.866,2.37,5.419,2.001,7.687,4.563,7.946,6.953,4.579,6.155,7.251,5.166,5.961,1.94,5.739,5.839,6.406,7.536,2.56,2.29,4.945,3.72,7.3,6.913,6.194,7.021,6.703,3.62,6.775,6.167,6.783,6.934,3.328,6.953,3.521,7.065,6.6,6.051,6.15,5.993,3.12,6.278,4.129,7.336,7.052,6.354,2.85,7.247,6.6,5.87,6.275,6.5,6.876,7.148,2.98,3.16,4.657,6.971,2.34,2.52,8.187,7.651,6.242,7.216,6.951,6.033,5.454,3.04,2.324,6.388,7.25,6.173,6.721,2.86,5.541,6.967,7.224,6.691,6.608,6.717,2.17,2.44,7.467,6.235,6.806,6.147,6.373,6.521,7.363,5.264,7.043,6.303,6.415,6.999,2.24,6.928,2.69,3.654,2.881,6.707,7.197,6.616,6.348,5.615,7.292,7.018,7.158],&#34;text&#34;:[&#34;Country Name: Afghanistan
+fertRate: 7.6710&#34;,&#34;Country Name: Albania
+fertRate: 6.1860&#34;,&#34;Country Name: Algeria
+fertRate: 7.6480&#34;,&#34;Country Name: Angola
+fertRate: 7.3160&#34;,&#34;Country Name: Antigua and Barbuda
+fertRate: 4.4250&#34;,&#34;Country Name: Argentina
+fertRate: 3.1090&#34;,&#34;Country Name: Armenia</description>
+    </item>
+    
+    <item>
+      <title>Worldwide Fertility Rate at year of 2013</title>
+      <link>/2021/11/15/worldwide-fertility-rate-at-year-of-2013/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/15/worldwide-fertility-rate-at-year-of-2013/</guid>
+      <description>Worldwide Fertility Rate at year of 2013To describe the changes in fertility rates in countries around the world in 2013, I make a choropleth map whcih shading geographic regionsby the value of fertility rate.
+{&#34;x&#34;:{&#34;visdat&#34;:{&#34;2aa011b6779a&#34;:[&#34;function () &#34;,&#34;plotlyVisDat&#34;]},&#34;cur_data&#34;:&#34;2aa011b6779a&#34;,&#34;attrs&#34;:{&#34;2aa011b6779a&#34;:{&#34;locations&#34;:{},&#34;z&#34;:{},&#34;text&#34;:{},&#34;colorscale&#34;:&#34;Viridis&#34;,&#34;alpha_stroke&#34;:1,&#34;sizes&#34;:[10,100],&#34;spans&#34;:[1,20],&#34;type&#34;:&#34;choropleth&#34;}},&#34;layout&#34;:{&#34;width&#34;:1100,&#34;height&#34;:520,&#34;margin&#34;:{&#34;b&#34;:40,&#34;l&#34;:60,&#34;t&#34;:25,&#34;r&#34;:10},&#34;title&#34;:&#34;2013 Worldwide Fertility Rate&#34;,&#34;scene&#34;:{&#34;zaxis&#34;:{&#34;title&#34;:&#34;fertRate&#34;}},&#34;hovermode&#34;:&#34;closest&#34;,&#34;showlegend&#34;:false,&#34;legend&#34;:{&#34;yanchor&#34;:&#34;top&#34;,&#34;y&#34;:0.5}},&#34;source&#34;:&#34;A&#34;,&#34;config&#34;:{&#34;modeBarButtonsToAdd&#34;:[&#34;hoverclosest&#34;,&#34;hovercompare&#34;],&#34;showSendToCloud&#34;:false},&#34;data&#34;:[{&#34;colorbar&#34;:{&#34;title&#34;:&#34;Fertility Rate&#34;,&#34;ticklen&#34;:2,&#34;len&#34;:0.5,&#34;lenmode&#34;:&#34;fraction&#34;,&#34;y&#34;:1,&#34;yanchor&#34;:&#34;top&#34;},&#34;colorscale&#34;:&#34;Viridis&#34;,&#34;showscale&#34;:true,&#34;locations&#34;:[&#34;AFG&#34;,&#34;ALB&#34;,&#34;DZA&#34;,&#34;AGO&#34;,&#34;ATG&#34;,&#34;ARG&#34;,&#34;ARM&#34;,&#34;ABW&#34;,&#34;AUS&#34;,&#34;AUT&#34;,&#34;AZE&#34;,&#34;BHS&#34;,&#34;BHR&#34;,&#34;BGD&#34;,&#34;BRB&#34;,&#34;BLR&#34;,&#34;BEL&#34;,&#34;BLZ&#34;,&#34;BEN&#34;,&#34;BMU&#34;,&#34;BTN&#34;,&#34;BOL&#34;,&#34;BIH&#34;,&#34;BWA&#34;,&#34;BRA&#34;,&#34;BRN&#34;,&#34;BGR&#34;,&#34;BFA&#34;,&#34;BDI&#34;,&#34;CPV&#34;,&#34;KHM&#34;,&#34;CMR&#34;,&#34;CAN&#34;,&#34;CAF&#34;,&#34;TCD&#34;,&#34;CHI&#34;,&#34;CHL&#34;,&#34;CHN&#34;,&#34;COL&#34;,&#34;COM&#34;,&#34;COD&#34;,&#34;COG&#34;,&#34;CRI&#34;,&#34;CIV&#34;,&#34;HRV&#34;,&#34;CUB&#34;,&#34;CYP&#34;,&#34;CZE&#34;,&#34;DNK&#34;,&#34;DJI&#34;,&#34;DOM&#34;,&#34;ECU&#34;,&#34;EGY&#34;,&#34;SLV&#34;,&#34;GNQ&#34;,&#34;ERI&#34;,&#34;EST&#34;,&#34;ETH&#34;,&#34;FJI&#34;,&#34;FIN&#34;,&#34;FRA&#34;,&#34;PYF&#34;,&#34;GAB&#34;,&#34;GMB&#34;,&#34;GEO&#34;,&#34;DEU&#34;,&#34;GHA&#34;,&#34;GRC&#34;,&#34;GRL&#34;,&#34;GRD&#34;,&#34;GUM&#34;,&#34;GTM&#34;,&#34;GIN&#34;,&#34;GNB&#34;,&#34;GUY&#34;,&#34;HTI&#34;,&#34;HND&#34;,&#34;HKG&#34;,&#34;HUN&#34;,&#34;ISL&#34;,&#34;IND&#34;,&#34;IDN&#34;,&#34;IRN&#34;,&#34;IRQ&#34;,&#34;IRL&#34;,&#34;ISR&#34;,&#34;ITA&#34;,&#34;JAM&#34;,&#34;JPN&#34;,&#34;JOR&#34;,&#34;KAZ&#34;,&#34;KEN&#34;,&#34;KIR&#34;,&#34;PRK&#34;,&#34;KOR&#34;,&#34;KSV&#34;,&#34;KWT&#34;,&#34;KGZ&#34;,&#34;LAO&#34;,&#34;LVA&#34;,&#34;LBN&#34;,&#34;LSO&#34;,&#34;LBR&#34;,&#34;LBY&#34;,&#34;LIE&#34;,&#34;LTU&#34;,&#34;LUX&#34;,&#34;MAC&#34;,&#34;MKD&#34;,&#34;MDG&#34;,&#34;MWI&#34;,&#34;MYS&#34;,&#34;MDV&#34;,&#34;MLI&#34;,&#34;MLT&#34;,&#34;MRT&#34;,&#34;MUS&#34;,&#34;MEX&#34;,&#34;FSM&#34;,&#34;MDA&#34;,&#34;MNG&#34;,&#34;MNE&#34;,&#34;MAR&#34;,&#34;MOZ&#34;,&#34;MMR&#34;,&#34;NAM&#34;,&#34;NPL&#34;,&#34;NLD&#34;,&#34;NCL&#34;,&#34;NZL&#34;,&#34;NIC&#34;,&#34;NER&#34;,&#34;NGA&#34;,&#34;NOR&#34;,&#34;OMN&#34;,&#34;PAK&#34;,&#34;PAN&#34;,&#34;PNG&#34;,&#34;PRY&#34;,&#34;PER&#34;,&#34;PHL&#34;,&#34;POL&#34;,&#34;PRT&#34;,&#34;PRI&#34;,&#34;QAT&#34;,&#34;ROU&#34;,&#34;RUS&#34;,&#34;RWA&#34;,&#34;WSM&#34;,&#34;STP&#34;,&#34;SAU&#34;,&#34;SEN&#34;,&#34;SRB&#34;,&#34;SYC&#34;,&#34;SLE&#34;,&#34;SGP&#34;,&#34;SVK&#34;,&#34;SVN&#34;,&#34;SLB&#34;,&#34;SOM&#34;,&#34;ZAF&#34;,&#34;SSD&#34;,&#34;ESP&#34;,&#34;LKA&#34;,&#34;LCA&#34;,&#34;MAF&#34;,&#34;VCT&#34;,&#34;SDN&#34;,&#34;SUR&#34;,&#34;SWZ&#34;,&#34;SWE&#34;,&#34;CHE&#34;,&#34;SYR&#34;,&#34;TJK&#34;,&#34;TZA&#34;,&#34;THA&#34;,&#34;TLS&#34;,&#34;TGO&#34;,&#34;TON&#34;,&#34;TTO&#34;,&#34;TUN&#34;,&#34;TUR&#34;,&#34;TKM&#34;,&#34;UGA&#34;,&#34;UKR&#34;,&#34;ARE&#34;,&#34;GBR&#34;,&#34;USA&#34;,&#34;URY&#34;,&#34;UZB&#34;,&#34;VUT&#34;,&#34;VEN&#34;,&#34;VNM&#34;,&#34;VIR&#34;,&#34;PSE&#34;,&#34;YEM&#34;,&#34;ZMB&#34;,&#34;ZWE&#34;],&#34;z&#34;:[4.9,1.771,2.795,5.863,2.089,2.175,1.74,1.673,1.921,1.44,2,1.888,2.075,2.177,1.849,1.62,1.79,2.676,4.845,1.63,2.232,3.221,1.283,2.619,1.801,1.994,1.5,5.605,6.033,2.292,2.861,4.78,1.61,4.365,6.263,1.459,1.82,1.668,2.286,4.714,5.933,4.969,1.795,4.866,1.51,1.449,1.461,1.45,1.73,3.387,2.484,2.559,2.77,2.184,4.845,4.696,1.56,4.519,2.588,1.8,2.01,2.058,4.087,5.751,1.817,1.38,3.857,1.29,2.05,2.17,2.405,3.783,4.915,4.927,2.546,3.148,3.001,1.124,1.34,2.04,2.479,2.338,1.92,4.026,2.01,3.03,1.43,2.26,1.43,3.244,2.64,4.382,2.952,1.988,1.187,2.16,2.6,3.2,3.02,1.44,1.495,3.038,4.792,2.356,1.51,1.6,1.57,1.083,1.431,4.468,5.389,1.964,2.256,6.847,1.43,4.67,1.44,2.185,3.294,1.456,2.436,1.666,2.735,5.188,1.938,3.051,2.3,1.72,2.28,1.95,2.498,7.561,5.976,1.85,2.853,3.185,2.466,3.781,2.864,2.417,3.043,1.3,1.28,1.636,2.019,1.53,1.7,4.508,4.147,4.075,2.644,4.934,1.45,2.4,4.705,1.19,1.34,1.58,4.031,6.563,2.387,4.92,1.32,2.339,1.912,1.81,1.997,4.42,2.268,3.334,1.91,1.52,2.964,3.815,5.214,1.399,5.2,4.639,3.767,1.797,2.25,2.041,2.326,5.867,1.506,1.801,1.92,1.8695,2.046,2.2,3.382,2.39,1.743,1.77,4.01,4.075,5.687,3.486],&#34;text&#34;:[&#34;Afghanistan&#34;,&#34;Albania&#34;,&#34;Algeria&#34;,&#34;Angola&#34;,&#34;Antigua and Barbuda&#34;,&#34;Argentina&#34;,&#34;Armenia&#34;,&#34;Aruba&#34;,&#34;Australia&#34;,&#34;Austria&#34;,&#34;Azerbaijan&#34;,&#34;Bahamas, The&#34;,&#34;Bahrain&#34;,&#34;Bangladesh&#34;,&#34;Barbados&#34;,&#34;Belarus&#34;,&#34;Belgium&#34;,&#34;Belize&#34;,&#34;Benin&#34;,&#34;Bermuda&#34;,&#34;Bhutan&#34;,&#34;Bolivia&#34;,&#34;Bosnia and Herzegovina&#34;,&#34;Botswana&#34;,&#34;Brazil&#34;,&#34;Brunei Darussalam&#34;,&#34;Bulgaria&#34;,&#34;Burkina Faso&#34;,&#34;Burundi&#34;,&#34;Cabo Verde&#34;,&#34;Cambodia&#34;,&#34;Cameroon&#34;,&#34;Canada&#34;,&#34;Central African Republic&#34;,&#34;Chad&#34;,&#34;Channel Islands&#34;,&#34;Chile&#34;,&#34;China&#34;,&#34;Colombia&#34;,&#34;Comoros&#34;,&#34;Congo, Dem. Rep.&#34;,&#34;Congo, Rep.&#34;,&#34;Costa Rica&#34;,&#34;Cote d&#39;Ivoire&#34;,&#34;Croatia&#34;,&#34;Cuba&#34;,&#34;Cyprus&#34;,&#34;Czech Republic&#34;,&#34;Denmark&#34;,&#34;Djibouti&#34;,&#34;Dominican Republic&#34;,&#34;Ecuador&#34;,&#34;Egypt, Arab Rep.</description>
+    </item>
+    
+    <item>
+      <title>population changes for different combinations of Region and IncomeGroup</title>
+      <link>/2021/11/14/population-changes-for-different-combinations-of-region-and-incomegroup/</link>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/14/population-changes-for-different-combinations-of-region-and-incomegroup/</guid>
+      <description>population changes for different combinations of Region and IncomeGroupFor different combinations of Region and IncomeGroup, the population changes in 1960,1985 and 2013.
+{&#34;x&#34;:{&#34;data&#34;:[{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[17146549],&#34;text&#34;:&#34;year: 1960
+population: 17146549&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:true,&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[175257373],&#34;text&#34;:&#34;year: 1960
+population: 175257373&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x2&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[704089069],&#34;text&#34;:&#34;year: 1960
+population: 704089069&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x3&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[5209180],&#34;text&#34;:&#34;year: 1960
+population: 5209180&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x4&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[130161223],&#34;text&#34;:&#34;year: 1960
+population: 130161223&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x5&#34;,&#34;yaxis&#34;:&#34;y&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[64691973],&#34;text&#34;:&#34;year: 1960
+population: 64691973&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x2&#34;,&#34;yaxis&#34;:&#34;y2&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[84017396],&#34;text&#34;:&#34;year: 1960
+population: 84017396&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x3&#34;,&#34;yaxis&#34;:&#34;y2&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[129801849],&#34;text&#34;:&#34;year: 1960
+population: 129801849&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x4&#34;,&#34;yaxis&#34;:&#34;y2&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[382369815],&#34;text&#34;:&#34;year: 1960
+population: 382369815&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x5&#34;,&#34;yaxis&#34;:&#34;y2&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[3866160],&#34;text&#34;:&#34;year: 1960
+population: 3866160&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x&#34;,&#34;yaxis&#34;:&#34;y3&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[14925154],&#34;text&#34;:&#34;year: 1960
+population: 14925154&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x2&#34;,&#34;yaxis&#34;:&#34;y3&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[158890924],&#34;text&#34;:&#34;year: 1960
+population: 158890924&#34;,&#34;type&#34;:&#34;bar&#34;,&#34;textposition&#34;:&#34;none&#34;,&#34;marker&#34;:{&#34;autocolorscale&#34;:false,&#34;color&#34;:&#34;rgba(248,118,109,1)&#34;,&#34;line&#34;:{&#34;width&#34;:1.88976377952756,&#34;color&#34;:&#34;transparent&#34;}},&#34;name&#34;:&#34;1960&#34;,&#34;legendgroup&#34;:&#34;1960&#34;,&#34;showlegend&#34;:false,&#34;xaxis&#34;:&#34;x3&#34;,&#34;yaxis&#34;:&#34;y3&#34;,&#34;hoverinfo&#34;:&#34;text&#34;,&#34;frame&#34;:null},{&#34;orientation&#34;:&#34;v&#34;,&#34;width&#34;:0.9,&#34;base&#34;:0,&#34;x&#34;:[1],&#34;y&#34;:[35061468],&#34;text&#34;:&#34;year: 1960
+population: 35061468&#34;</description>
+    </item>
+    
+    <item>
+      <title>Countrys with the longest life expectancy over times</title>
+      <link>/2021/11/13/countrys-with-the-longest-life-expectancy-over-times/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/13/countrys-with-the-longest-life-expectancy-over-times/</guid>
+      <description>Countrys with the longest life expectancy over times.Countrys with the longest life expectancy over times in the peroid of 1960~2013.
+</description>
+    </item>
+    
+    <item>
+      <title>Demographic trends of five representative countries considering IncomeLevel</title>
+      <link>/2021/11/12/demographic-trends-of-five-representative-countries-considering-incomelevel/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/12/demographic-trends-of-five-representative-countries-considering-incomelevel/</guid>
+      <description>Demographic trends of five representative countries considering IncomeLevelFor the five countries with the largest population in each income level at year of 2013,following figure illustrates the curve and the trend of population changes over the years.
+{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[1960,1961,1962,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013],&#34;y&#34;:[8.82417140965659,8.8197610285141,8.82332422168878,8.83399764874878,8.84407624690409,8.85441839716714,8.86652362553284,8.87768802344179,8.88902702947648,8.90092670742555,8.91292051201872,8.92485021467326,8.93552238021885,8.94543904028458,8.95441136890619,8.96208271094257,8.96880271437517,8.97472119043868,8.98053284249189,8.98632601798658,8.99177303080603,8.9973361361531,9.00373188137288,9.01000721816458,9.01570546039298,9.02161924452368,9.02807893599686,9.03504330439931,9.0420357542796,9.04869422697042,9.05506664384805,9.06099230545576,9.06631474166915,9.07130747542015,9.07621613497673,9.08093478426442,9.08548680502279,9.08993159200292,9.09409886646855,9.0978592112898,9.1012812632928,9.10443589432054,9.10734566547209,9.11005071614765,9.1126301335899,9.11518432796624,9.1176093170321,9.11987751492838,9.12210278309847,9.12426288307653,9.12636035035428,9.1284412743371,9.13055729219656,9.13270144589153],&#34;text&#34;:[&#34;Country: China
+Population: 667,070,000
+Income Group: Upper middle income&#34;,&#34;Country: China
+Population: 660,330,000
+Income Group: Upper middle income&#34;,&#34;Country: China
+Population: 665,770,000
+Income Group: Upper middle income&#34;</description>
+    </item>
+    
+    <item>
+      <title>Animation scatter of fertility rate vs life expectancy</title>
+      <link>/2021/11/11/animation-scatter-of-fertility-rate-vs-life-expectancy/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/11/animation-scatter-of-fertility-rate-vs-life-expectancy/</guid>
+      <description>Animation scatter of fertility rate vs life expectancyA scatter plot of life expectancy and fertility rate ,each dot in the plot represent one country andthe size of the dot indicates the number of population andthe color of the dot represents the region of each coutry.clicking the play button at the bottom of the graph, the scatter animated with the year.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a website constructed using blogdown to summary (mainly visualize) worlds&amp;rsquo;s population life expectancy and fertility rate in the peroid of 1960~2013.</description>
+    </item>
+    
+  </channel>
+</rss>

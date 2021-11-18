@@ -1,0 +1,45 @@
+---
+title: Worldwide Fertility Rate at year of 2013
+author: ''
+date: '2021-11-15'
+slug: worldwide-fertility-rate-at-year-of-2013
+categories:
+  - R
+tags:
+  - worldwide
+  - map
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Worldwide Fertility Rate at year of 2013
+
+
+To describe the changes in fertility rates in countries around the world in 2013, I make a choropleth map whcih shading geographic regions 
+by the value of fertility rate.
+
+```{r message=F,warning=F,echo=F}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+
+load('../info.RData')
+
+plot5.data2<-info[Year==2013]
+
+plot_ly(data=plot5.data2, type='choropleth', 
+    locations=~`Country Code`, 
+    z=~fertRate, 
+    text=~`Country Name`, colorscale="Viridis",width=1100,height=520) %>% 
+    layout( title = '2013 Worldwide Fertility Rate') %>%
+    colorbar(title = "Fertility Rate")
+
+```
+
+The countries whose fertility rates are high, at around three to five are very concentrated in Africa and Southeast Asia. However, the fertility rates of major economic entities and developed countries are almost around 1.7. To conclude, there indeed exists a fertility gap between continents.

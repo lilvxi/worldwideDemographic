@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plotly on worldwideDemographic</title>
+    <link>/tags/plotly/</link>
+    <description>Recent content in plotly on worldwideDemographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/plotly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demographic trends of five representative countries considering IncomeLevel</title>
+      <link>/2021/11/12/demographic-trends-of-five-representative-countries-considering-incomelevel/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/12/demographic-trends-of-five-representative-countries-considering-incomelevel/</guid>
+      <description>Demographic trends of five representative countries considering IncomeLevelFor the five countries with the largest population in each income level at year of 2013,following figure illustrates the curve and the trend of population changes over the years.
+{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[1960,1961,1962,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013],&#34;y&#34;:[8.82417140965659,8.8197610285141,8.82332422168878,8.83399764874878,8.84407624690409,8.85441839716714,8.86652362553284,8.87768802344179,8.88902702947648,8.90092670742555,8.91292051201872,8.92485021467326,8.93552238021885,8.94543904028458,8.95441136890619,8.96208271094257,8.96880271437517,8.97472119043868,8.98053284249189,8.98632601798658,8.99177303080603,8.9973361361531,9.00373188137288,9.01000721816458,9.01570546039298,9.02161924452368,9.02807893599686,9.03504330439931,9.0420357542796,9.04869422697042,9.05506664384805,9.06099230545576,9.06631474166915,9.07130747542015,9.07621613497673,9.08093478426442,9.08548680502279,9.08993159200292,9.09409886646855,9.0978592112898,9.1012812632928,9.10443589432054,9.10734566547209,9.11005071614765,9.1126301335899,9.11518432796624,9.1176093170321,9.11987751492838,9.12210278309847,9.12426288307653,9.12636035035428,9.1284412743371,9.13055729219656,9.13270144589153],&#34;text&#34;:[&#34;Country: China
+Population: 667,070,000
+Income Group: Upper middle income&#34;,&#34;Country: China
+Population: 660,330,000
+Income Group: Upper middle income&#34;,&#34;Country: China
+Population: 665,770,000
+Income Group: Upper middle income&#34;</description>
+    </item>
+    
+    <item>
+      <title>Animation scatter of fertility rate vs life expectancy</title>
+      <link>/2021/11/11/animation-scatter-of-fertility-rate-vs-life-expectancy/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/11/animation-scatter-of-fertility-rate-vs-life-expectancy/</guid>
+      <description>Animation scatter of fertility rate vs life expectancyA scatter plot of life expectancy and fertility rate ,each dot in the plot represent one country andthe size of the dot indicates the number of population andthe color of the dot represents the region of each coutry.clicking the play button at the bottom of the graph, the scatter animated with the year.</description>
+    </item>
+    
+  </channel>
+</rss>

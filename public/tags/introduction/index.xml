@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on worldwideDemographic</title>
+    <link>/tags/introduction/</link>
+    <description>Recent content in Introduction on worldwideDemographic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/2021/11/18/introduction/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/11/18/introduction/</guid>
+      <description>p {text-indent:2em; padding:0px; margin:0px;}
+At the beginning, an overall scatter plot is adopted to generate the whole situation. Thus, income level appears to be a vital factor to dig deeper. In this way, five representatives within each income level have been chosen to generate the population situation. Despite the income level, life expectancy values a lot in this case.Afterward, someone may consider whether there exist other external factors for this case.</description>
+    </item>
+    
+  </channel>
+</rss>

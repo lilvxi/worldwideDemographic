@@ -1,0 +1,57 @@
+---
+title: Demographic trends of five representative countries considering IncomeLevel
+author: ''
+date: '2021-11-12'
+slug: demographic-trends-of-five-representative-countries-considering-incomelevel
+categories:
+  - R
+tags:
+  - worldwide
+  - scatter
+  - plotly
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Demographic trends of five representative countries considering IncomeLevel
+
+For the  five countries with the largest population in each income level at year of 2013,
+following figure illustrates the curve and the trend of population changes over the years.
+
+
+
+```{r message=F,warning=F,echo=F}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+
+load('../info.RData')
+
+plot2.data.guos<-info[Year==2013 & !is.na(Region),.SD[order(-population)][1],by=IncomeGroup]
+plot2.data<-info[`Country Name` %in% plot2.data.guos$"Country Name"]
+
+plot2.data[,label:=paste(
+paste0('<b>Country</b>',': ',`Country Name`),
+paste0('<b>Population</b>',': ',comma(population)),
+paste0('<b>Income Group</b>',': ',IncomeGroup),
+sep='<br>')]
+
+plot2<-ggplot(plot2.data,aes(x=Year,y=population,group=`Country Name`,colour=`Country Name`,text=label))+
+   geom_line()+
+   theme_minimal() %+replace% theme(legend.position='bottom')+
+   geom_point(size=0.5)+
+   scale_y_continuous(trans='log10')+
+   scale_x_continuous(breaks=seq(1960,2010,by=5),expand=expansion(0.01))
+
+ggplotly(plot2,tooltip='text') %>%
+     layout(legend = list(
+      orientation = "h",x=0.5,xanchor = "center",y=-0.2
+    ))
+
+```

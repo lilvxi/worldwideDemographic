@@ -1,0 +1,62 @@
+---
+title: Animation scatter of fertility rate vs life expectancy
+author: ''
+date: '2021-11-11'
+slug: animation-scatter-of-fertility-rate-vs-life-expectancy
+categories:
+  - R
+tags:
+  - worldwide
+  - plotly
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Animation scatter of fertility rate vs life expectancy
+
+A scatter plot of life expectancy and fertility rate , 
+each dot in the plot represent one country and 
+the size of the dot indicates the number of population and
+the color of the dot represents the region of each coutry.
+clicking the `play` button at the bottom of the graph, the scatter animated with the year.
+
+
+```{r message=F,warning=F,echo=F}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+library(htmltools)
+
+load('../info.RData')
+
+
+#########
+plot1.data<-info
+
+
+plot1.data[,label:=paste(
+paste0('<b>Country</b>',': ',`Country Name`),
+paste0('<b>Fertility Rate</b>',': ',fertRate),
+paste0('<b>Life Expectancy</b>',': ',sprintf("%3.2f",lifeExpect)),
+paste0('<b>Population</b>',': ',comma(population)),
+paste0('<b>Region</b>',': ',Region),
+sep='<br>')]
+
+
+
+plot1<-ggplot(plot1.data,aes(y=fertRate,x=lifeExpect,size=population,colour=Region,text=label,frame=Year))+
+       geom_point()+
+       theme_minimal()+
+       labs(x='Life Expectancy at Birth',y='Fertility Rate',title='Fertility Rate vs. Life Expectancy (1960~2013)')+
+	   scale_size_continuous(guide='none')
+
+ggplotly(plot1,tooltip='text',width=1100,height=600) %>% hide_legend()
+```
+
+After viewing these data visualizations, there are several points we are supposed to pay special attention to. The first is the worldwide income-level gap among countries. To follow up, the population distribution difference between different continents as well as different regions. Afterward, whether there is an incentive mechanism for newborns in those countries with low fertility rates. In all, the ideal situation for our earth is supposed to have balance across the whole world.

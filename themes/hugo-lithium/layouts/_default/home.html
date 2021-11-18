@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+
+<h1>
+Is the actual situation of worldwide fertility goes consistently as you know?
+</h1>
+
+<p>
+Without any entrance barriers, everyone has an interest, can easily read and grasp knowledge. As time flies, you must find out the total fertility rate declined. However, did you ever wonder about the following questions?
+How are nations different from each other in life expectancy? The variation of fertility between continents. Will income be an important factor in giving birth to newborns?
+While here offer some shortcuts for you. Please feel free to access them.
+</p>
+
+
+  {{ if .Content }}
+  <article class="article">
+    {{ if .Title }}
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ end }}
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
+  {{ end }}
+  <div class="archive">
+    {{ $pages := .Pages }}
+    {{ if .IsHome }}
+    {{ $pages = .Site.RegularPages }}
+    {{ end }}
+    {{ range (where $pages "Section" "!=" "").GroupByDate "2006" }}
+    {{ range .Pages }}
+    <article class="archive-item">
+      <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
+      <span class="archive-item-date">
+        {{ .Date.Format "2006-01-02" }}
+      </span>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+
+</main>
+
+{{ partial "footer.html" . }}

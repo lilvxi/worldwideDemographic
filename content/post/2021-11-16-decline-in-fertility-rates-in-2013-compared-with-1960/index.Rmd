@@ -1,0 +1,56 @@
+---
+title: Decline in fertility rates in 2013 compared with 1960
+author: ''
+date: '2021-11-16'
+slug: decline-in-fertility-rates-in-2013-compared-with-1960
+categories:
+  - R
+tags:
+  - worldwide
+  - ggplot2
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Decline in fertility rates in 2013 compared with 1960.
+
+There is a declining trend in fertility rates in countries around the world in 1960 and 2013. There exist huge difference various from country to country.
+
+```{r message=F,warning=F,echo=F,fig.width=10,fig.height=6.2}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+
+load('../info.RData')
+
+######plot6
+plot6.data<-info[Year %in% c(1960,2013),.(`Country Name`,Year,fertRate)]
+plot6.data<-plot6.data[!is.na(fertRate)]
+plot6.data[,Year:=paste0('Year',Year)]
+
+
+cons<-plot6.data[Year=='Year2013'][order(-fertRate),`Country Name`]
+plot6.data[,`Country Name`:=ordered(`Country Name`,levels=cons)]
+plot6.data.wide<-dcast(plot6.data,`Country Name`~Year,value.var='fertRate')
+
+
+plot6<-ggplot(plot6.data,aes(x=`Country Name`,y=fertRate,colour=Year,group=Year))+
+    geom_point()+
+    geom_segment(aes(x=`Country Name`,xend=`Country Name`,y=Year1960,yend=Year2013,),data=plot6.data.wide,inherit.aes=F)+
+    theme_minimal() %+replace% theme(legend.position='bottom',axis.text.x=element_blank())+
+	labs('Decline in fertility between 196 0& 2013')
+
+
+ggplotly(plot6,tooltip=c('x','y'))%>%
+     layout(legend = list(
+      orientation = "h",x=0.5,xanchor = "center",y=-0.2
+    ))
+
+
+```

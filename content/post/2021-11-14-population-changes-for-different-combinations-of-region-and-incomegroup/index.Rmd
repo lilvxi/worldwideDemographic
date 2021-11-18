@@ -1,0 +1,63 @@
+---
+title: population changes for different combinations of Region and IncomeGroup
+author: ''
+date: '2021-11-14'
+slug: population-changes-for-different-combinations-of-region-and-incomegroup
+categories:
+  - R
+tags:
+  - worldwide
+  - ggplot2
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# population changes for different combinations of Region and IncomeGroup
+
+For different combinations of `Region` and `IncomeGroup`, the population changes in 1960,1985 and 2013.
+
+
+```{r message=F,warning=F,echo=F,fig.height=15,fig.width=5.6}
+library(data.table)
+library(ggplot2)
+library(plotly)
+library(scales)
+library(dplyr)
+
+load('../info.RData')
+
+
+plot4.data1<-info[Year==2013,.(pop2013=sum(population,na.rm=T)),by=.(Region,IncomeGroup)]
+plot4.data2<-info[Year==1960,.(pop1960=sum(population,na.rm=T)),by=.(Region,IncomeGroup)]
+plot4.data3<-info[Year==1985,.(pop1985=sum(population,na.rm=T)),by=.(Region,IncomeGroup)]
+plot4.data<-plot4.data1[plot4.data2,on=.(Region,IncomeGroup)]
+plot4.data<-plot4.data[plot4.data3,on=.(Region,IncomeGroup)]
+
+plot4.data<-plot4.data[!is.na(Region)]
+plot4.data<-melt(plot4.data,id.vars=c('Region','IncomeGroup'),value.name='population',variable.name='year')
+plot4.data[,year:=gsub('pop','',year)]
+plot4.data[,IncomeGroup:=ordered(IncomeGroup,levels=c("Low income", 
+"Lower middle income" ,           
+"Upper middle income" , 
+"High income: nonOECD" ,
+"High income: OECD"))]
+
+
+
+
+plot4<-ggplot(plot4.data, aes(x=year,y=population,fill=year))+
+    geom_bar(stat='identity',position='dodge',colour=NA,show.legend=F)+
+    theme_bw() %+replace% theme(panel.grid=element_blank())+
+    facet_grid(row=vars(Region),col=vars(IncomeGroup))+
+	scale_y_continuous(expand=expansion(c(0,0.05)))
+
+
+ggplotly(plot4,height=1200,width=800,tooltip=c('x','y')) %>% hide_legend()
+
+
+
+```
